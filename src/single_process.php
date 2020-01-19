@@ -15,8 +15,6 @@ if($pid == -1){
     exit();
 }else{
     sleep(30);
-
-
     $id = getmypid();
     echo "Child process,pid {$id}，ppid : ".posix_getppid()."\n";
 
